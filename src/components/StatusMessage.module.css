@@ -1,0 +1,29 @@
+.message {
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background: white;
+}
+
+.message:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.success {
+  border-top: 3px solid var(--color-success);
+}
+
+.success h2 {
+  color: var(--color-success);
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.success p {
+  color: #333;
+}
+
+.error {
+  border-top: 3px solid var(--color-error);
+}
